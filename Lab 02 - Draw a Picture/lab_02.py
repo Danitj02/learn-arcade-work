@@ -39,10 +39,24 @@ arcade.draw_triangle_filled(570, 350, 555, 310, 588, 320, arcade.color.SNOW)
 arcade.draw_triangle_filled(570, 350, 555, 320, 595, 310, arcade.color.SNOW)
 arcade.draw_triangle_filled(570, 350, 535, 315, 555, 310, arcade.color.PLATINUM)
 
-
 # --- Sky ---
 
 # Moon
+arcade.draw_circle_filled(710, 500, 40, arcade.color.BUBBLES)
+arcade.draw_circle_filled(740, 500, 30, arcade.color.HAN_BLUE)
+
+# Yellow Stars
+arcade.draw_circle_filled(156, 398, 3, arcade.color.YELLOW)
+arcade.draw_circle_filled(678, 423, 2, arcade.color.YELLOW)
+arcade.draw_circle_filled(35, 570, 2, arcade.color.YELLOW)
+arcade.draw_circle_filled(87, 470, 3, arcade.color.YELLOW)
+arcade.draw_circle_filled(239, 512, 4, arcade.color.YELLOW)
+arcade.draw_circle_filled(727, 398, 2, arcade.color.YELLOW)
+arcade.draw_circle_filled(49, 246, 2, arcade.color.YELLOW)
+arcade.draw_circle_filled(773, 217, 2, arcade.color.YELLOW)
+arcade.draw_circle_filled(546, 396, 3, arcade.color.YELLOW)
+arcade.draw_circle_filled(452, 569, 2, arcade.color.YELLOW)
+
 
 arcade.finish_render()
 arcade.run()
