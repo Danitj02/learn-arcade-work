@@ -57,6 +57,37 @@ arcade.draw_circle_filled(773, 217, 2, arcade.color.YELLOW)
 arcade.draw_circle_filled(546, 396, 3, arcade.color.YELLOW)
 arcade.draw_circle_filled(452, 569, 2, arcade.color.YELLOW)
 
+# --- Trees ---
 
+# Left Tree
+arcade.draw_rectangle_filled(67, 90, 8, 20, arcade.color.BROWN)
+arcade.draw_triangle_filled(85, 95, 50, 95, 67, 120, arcade.color.CADMIUM_GREEN)
+arcade.draw_triangle_filled(80, 110, 55, 110, 67, 140, arcade.color.CADMIUM_GREEN)
+
+# Right Tree
+arcade.draw_rectangle_filled(548, 80, 8, 20, arcade.color.BROWN)
+arcade.draw_triangle_filled(560, 85, 536, 85, 548, 110, arcade.color.CADMIUM_GREEN)
+arcade.draw_triangle_filled(555, 100, 541, 100, 548, 130, arcade.color.CADMIUM_GREEN)
+
+# --- House ---
+
+# Base
+arcade.draw_rectangle_filled(700, 65, 35, 35, arcade.color.BONE)
+
+# Door
+arcade.draw_rectangle_filled(700, 55, 8, 15, arcade.color.BEAVER)
+
+# Roof
+arcade.draw_triangle_filled(675, 78, 725, 78, 700, 98, arcade.color.BRIGHT_MAROON)
+
+# Left Window
+arcade.draw_circle_filled(690, 70, 4, arcade.color.BLUEBERRY)
+
+# Right Windor
+arcade.draw_circle_filled(710, 70, 4, arcade.color.BLUEBERRY)
+
+# Finish Drawing
 arcade.finish_render()
+
+# Keep the window up until someone closes it.
 arcade.run()
